@@ -1,0 +1,4 @@
+*.byte
+
+# ocamlbuild working directory
+_build/

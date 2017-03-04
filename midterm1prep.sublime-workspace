@@ -1,0 +1,486 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Cus",
+				"CustomStringTreeSort\t"
+			],
+			[
+				"Make",
+				"MakeTreeSorter\t"
+			],
+			[
+				"String",
+				"StringCompare\t"
+			],
+			[
+				"MAke",
+				"MakeSelectionSorter\t"
+			],
+			[
+				"take",
+				"test_take\tunit -> unit"
+			],
+			[
+				"queu",
+				"queue3\telt"
+			],
+			[
+				"queue",
+				"queue1\tqueue"
+			],
+			[
+				"queu2",
+				"queue2\t'_a"
+			],
+			[
+				"min",
+				"min_ele\tT.elt"
+			],
+			[
+				"ge",
+				"getmin\tT.collection -> T.elt"
+			],
+			[
+				"ord",
+				"orderedcoll"
+			],
+			[
+				"Lis",
+				"ListQueue\t"
+			],
+			[
+				"tes",
+				"test_empty\tunit -> unit"
+			],
+			[
+				"qu",
+				"queue1\tqueue"
+			],
+			[
+				"gen",
+				"generate_gt\tC.t -> C.t"
+			],
+			[
+				"Qu",
+				"QueueEmpty\texn"
+			],
+			[
+				"get",
+				"getmax"
+			],
+			[
+				"test",
+				"test_getmax"
+			],
+			[
+				"pop",
+				"pop_helper"
+			],
+			[
+				"po",
+				"pop_helper"
+			],
+			[
+				"Int",
+				"IntListStack"
+			],
+			[
+				"fav",
+				"most_fav"
+			],
+			[
+				"leas",
+				"least_fav"
+			],
+			[
+				"gra",
+				"graph2"
+			],
+			[
+				"find",
+				"find_parents_graph"
+			],
+			[
+				"graph",
+				"graph1"
+			],
+			[
+				"add",
+				"add_child_to_graph"
+			],
+			[
+				"ps3",
+				"ps3_tests"
+			],
+			[
+				"ps",
+				"ps3_tests"
+			],
+			[
+				"resu",
+				"result3"
+			],
+			[
+				"print",
+				"print_string"
+			],
+			[
+				"rand",
+				"rand_exp1"
+			],
+			[
+				"pf",
+				"printFromExpr"
+			],
+			[
+				"exp",
+				"expression"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"ex",
+				"expressionLibrary"
+			],
+			[
+				"expressio",
+				"expression_tests"
+			],
+			[
+				"conta",
+				"contains_var"
+			],
+			[
+				"studen",
+				"students2"
+			],
+			[
+				"filt",
+				"filter_by_year"
+			],
+			[
+				"su",
+				"super_sum"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "(* Questions from 2011 CS51 Midterm *)\n\n\n",
+			"file": "midterm2011.ml",
+			"file_size": 39,
+			"file_write_time": 131330734180713640,
+			"settings":
+			{
+				"buffer_size": 41,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "(* *)"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "repl",
+		"selected_items":
+		[
+			[
+				"repl",
+				"SublimeREPL: OCaml"
+			],
+			[
+				"merlin",
+				"Merlin: Enable syntax extension"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"REP",
+				"SublimeREPL: OCaml"
+			],
+			[
+				"subl",
+				"SublimeREPL: OCaml"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"repl ocam",
+				"SublimeREPL: OCaml"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 471.0
+	},
+	"console":
+	{
+		"height": 168.0,
+		"history":
+		[
+			"ocamlmerlin",
+			"plugin Merlin.sublime-text-merlin",
+			"Merlin",
+			"Merlin.sublime-text-merlin",
+			"merlin_load_package",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mattuxyoga/cs51/ps4/makefile",
+		"/home/mattuxyoga/cs51/ps4/.merlin",
+		"/home/mattuxyoga/cs51/ps4/order.ml",
+		"/home/mattuxyoga/cs51/ps4/tests.ml",
+		"/home/mattuxyoga/cs51/ps4/benchmark.ml",
+		"/home/mattuxyoga/cs51/ps4/benchmarkResults.txt",
+		"/home/mattuxyoga/cs51/ps4/prioqueue.ml",
+		"/home/mattuxyoga/cs51/ps4/orderedcoll.ml",
+		"/home/mattuxyoga/.profile",
+		"/etc/shells",
+		"/home/mattuxyoga/.zshrc",
+		"/home/mattuxyoga/cs51/ps4/.zshrc",
+		"/home/mattuxyoga/.bashrc",
+		"/home/mattuxyoga/.bash_profile",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/User/Merlin.sublime-settings",
+		"/home/mattuxyoga/cs51/ps4/.gitignore",
+		"/home/mattuxyoga/cs51/lab4/makefile",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/Merlin/Merlin.sublime-settings",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/mattuxyoga/cs51/lab4/.gitignore",
+		"/home/mattuxyoga/cs51/lab4/sam.ml",
+		"/home/mattuxyoga/cs51/lab4/gabbi.ml",
+		"/home/mattuxyoga/cs51/lab4/lab4_part5.ml",
+		"/home/mattuxyoga/cs51/lab4/lab4_part4.ml",
+		"/home/mattuxyoga/cs51/lab4/lab4_part3.ml",
+		"/home/mattuxyoga/cs51/lab4/lab4_part2.ml",
+		"/home/mattuxyoga/cs51/lab4/lab4_part1.ml",
+		"/home/mattuxyoga/cs51/lab3/makefile",
+		"/home/mattuxyoga/cs51/ps3/makefile",
+		"/home/mattuxyoga/cs51/lab3/lab3_tests.ml",
+		"/home/mattuxyoga/cs51/ps3/ps3.ml",
+		"/home/mattuxyoga/cs51/lab3/lab3.ml",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/SublimeREPL/Default (Linux).sublime-keymap",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/SublimeREPL/Default.sublime-commands",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/SublimeREPL/Default (Windows).sublime-keymap",
+		"/home/mattuxyoga/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/mattuxyoga/.nvm/versions/node/v7.5.0/lib/node_modules/ocamlBetterErrors/package.json",
+		"/home/mattuxyoga/cs51/ps3/package.json",
+		"/home/mattuxyoga/.npm/ocamlBetterErrors/0.1.0/package/package.json",
+		"/home/mattuxyoga/cs51/ps3/ps3_tests.ml",
+		"/home/mattuxyoga/cs51/ps3/.merlin",
+		"/home/mattunix/cs51/ps3/.merlin",
+		"/home/mattunix/cs51/ps3/makefile",
+		"/home/mattunix/.config/sublime-text-3/Packages/User/Merlin.sublime-settings",
+		"/home/mattunix/.config/sublime-text-3/Packages/Merlin/Merlin.sublime-settings",
+		"/home/mattunix/cs51/ps2-mattj26/mapfold.ml",
+		"/home/mattunix/cs51/ps2-mattj26/expression.ml",
+		"/home/mattunix/cs51/ps2-mattj26/ps2.sublime-project",
+		"/home/mattunix/.config/sublime-text-3/Packages/Merlin/Default.sublime-commands",
+		"/home/mattunix/cs51/ps2-mattj26/.gitignore",
+		"/home/mattunix/cs51/lab1/lab1.ml",
+		"/home/mattunix/cs51/ps2-mattj26/expression.byte",
+		"/home/mattunix/cs51/ps2-mattj26/expressionLibrary.ml",
+		"/home/mattunix/cs51/ps2-mattj26/README.md",
+		"/home/mattunix/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/mattunix/cs51/ps2-mattj26/expression_tests.ml",
+		"/home/mattunix/cs51/ps2-mattj26/mapfold_tests.ml",
+		"/home/mattunix/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/mattunix/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/mattunix/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/mattunix/cs51/ps2-mattj26/mapfold_tests.byte",
+		"/home/mattunix/cs51/ps2-mattj26/extraTests.ml",
+		"/home/mattunix/cs51/lab2/makefile",
+		"/home/mattunix/cs51/lab2/lab2.ml",
+		"/home/mattunix/cs51/lab1/lab1_tests.ml",
+		"/home/mattunix/cs51/ps0-mattj26/ps0.ml",
+		"/home/mattunix/cs51/ps0-mattj26/ps0_tests.ml",
+		"/home/mattunix/cs51/ps2-mattj26/_tags",
+		"/home/mattunix/cs51/ps2-mattj26/makefile"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"random",
+			"(*",
+			"())),"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "midterm2011.ml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"auto_name": "(* *)",
+							"syntax": "Packages/sublime-better-ocaml/OCaml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.merlin":
+	{
+		"height": 114.0
+	},
+	"pinned_build_system": "",
+	"project": "midterm1prep.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
