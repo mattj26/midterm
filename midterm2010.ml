@@ -21,11 +21,13 @@ match xs with
   print_newline ();
   print_int (gac lst);;
  *)
+
+(* 2b *)
+
 let gbr xs =
   reduce (fun x y -> match y with
                      | None -> Some x
                      | Some x -> Some x) None xs;;
-
 
 let rec gbc xs =
 match xs with
@@ -34,6 +36,12 @@ match xs with
             | None -> Some h
             | Some x -> Some x);;
 
-let test2b () =
+(* 2c *)
 
+let gcr xs =
+  reduce (fun a b x -> a (b x)) (fun x -> x) xs;;
 
+let rec gcc xs =
+match xs with
+| [] -> (fun x -> x)
+| h::t -> fun x -> h((gcc t) x);;

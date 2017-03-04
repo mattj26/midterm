@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"rec",
+				"record"
+			],
+			[
+				"pritn",
+				"print_int\tint -> unit"
+			],
+			[
+				"print",
+				"print_newline\tunit -> unit"
+			],
+			[
 				"Cus",
 				"CustomStringTreeSort\t"
 			],
@@ -124,10 +136,6 @@
 				"result3"
 			],
 			[
-				"print",
-				"print_string"
-			],
-			[
 				"rand",
 				"rand_exp1"
 			],
@@ -172,16 +180,22 @@
 	"buffers":
 	[
 		{
-			"contents": "(* Questions from 2011 CS51 Midterm *)\n\n\n",
-			"file": "midterm2011.ml",
-			"file_size": 39,
-			"file_write_time": 131330734180713640,
+			"file": "midterm2010.ml",
 			"settings":
 			{
-				"buffer_size": 41,
+				"buffer_size": 861,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 90,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
-				"name": "(* *)"
+				"name": "all: midterm2010.m"
 			}
 		}
 	],
@@ -192,7 +206,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 371.0,
 		"last_filter": "repl",
 		"selected_items":
 		[
@@ -253,8 +267,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/mattuxyoga/cs51/midterm"
+	],
 	"file_history":
 	[
+		"/home/mattuxyoga/cs51/midterm/.gitignore",
+		"/home/mattuxyoga/cs51/ps4/.gitignore",
+		"/home/mattuxyoga/cs51/midterm/midterm2011.ml",
 		"/home/mattuxyoga/cs51/ps4/makefile",
 		"/home/mattuxyoga/cs51/ps4/.merlin",
 		"/home/mattuxyoga/cs51/ps4/order.ml",
@@ -270,7 +291,6 @@
 		"/home/mattuxyoga/.bashrc",
 		"/home/mattuxyoga/.bash_profile",
 		"/home/mattuxyoga/.config/sublime-text-3/Packages/User/Merlin.sublime-settings",
-		"/home/mattuxyoga/cs51/ps4/.gitignore",
 		"/home/mattuxyoga/cs51/lab4/makefile",
 		"/home/mattuxyoga/.config/sublime-text-3/Packages/Merlin/Merlin.sublime-settings",
 		"/home/mattuxyoga/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
@@ -362,36 +382,63 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "midterm2011.ml",
+					"file": "midterm2010.ml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 41,
+						"buffer_size": 861,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								711,
+								774
 							]
 						],
 						"settings":
 						{
-							"auto_name": "(* *)",
 							"syntax": "Packages/sublime-better-ocaml/OCaml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"auto_name": "all: midterm2010.m",
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
