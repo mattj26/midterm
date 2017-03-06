@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"sent",
+				"sentence"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"deb",
+				"debugThis"
+			],
+			[
 				"rec",
 				"record"
 			],
@@ -177,28 +189,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "midterm2010.ml",
-			"settings":
-			{
-				"buffer_size": 861,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Makefile",
-			"settings":
-			{
-				"buffer_size": 90,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "all: midterm2010.m"
-			}
-		}
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -206,10 +196,34 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 371.0,
-		"last_filter": "repl",
+		"height": 375.0,
+		"last_filter": "line",
 		"selected_items":
 		[
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"repl oca",
+				"SublimeREPL: OCaml utop"
+			],
+			[
+				"line ending",
+				"Line Ending: Unix"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"toggle",
+				"Raw Line Edit: Toggle"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
 			[
 				"repl",
 				"SublimeREPL: OCaml"
@@ -243,7 +257,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 471.0
+		"width": 561.0
 	},
 	"console":
 	{
@@ -267,12 +281,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/mattuxyoga/cs51/midterm"
-	],
 	"file_history":
 	[
+		"/home/mattunixleno/cs51/midterm/midterm2010.ml",
 		"/home/mattuxyoga/cs51/midterm/.gitignore",
 		"/home/mattuxyoga/cs51/ps4/.gitignore",
 		"/home/mattuxyoga/cs51/midterm/midterm2011.ml",
@@ -362,6 +373,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\128",
 			"random",
 			"(*",
 			"())),"
@@ -369,7 +381,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -379,71 +391,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "midterm2010.ml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 861,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								711,
-								774
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/sublime-better-ocaml/OCaml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 408.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Makefile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 90,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"auto_name": "all: midterm2010.m",
-							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 25.0
@@ -484,7 +431,6 @@
 		"height": 114.0
 	},
 	"pinned_build_system": "",
-	"project": "midterm1prep.sublime-project",
 	"replace":
 	{
 		"height": 46.0
@@ -517,7 +463,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
