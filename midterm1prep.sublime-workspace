@@ -205,6 +205,10 @@
 				"Line Ending: Unix"
 			],
 			[
+				"repl",
+				"SublimeREPL: OCaml"
+			],
+			[
 				"repl oca",
 				"SublimeREPL: OCaml utop"
 			],
@@ -223,10 +227,6 @@
 			[
 				"pack in",
 				"Package Control: Install Package"
-			],
-			[
-				"repl",
-				"SublimeREPL: OCaml"
 			],
 			[
 				"merlin",
