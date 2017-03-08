@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"doc",
+				"docLst\tdocument list"
+			],
+			[
+				"sent",
+				"sentence"
+			],
+			[
+				"deb",
+				"debugThis"
+			],
+			[
 				"rec",
 				"record"
 			],
@@ -180,22 +192,29 @@
 	"buffers":
 	[
 		{
-			"file": "midterm2010.ml",
+			"file": "midterm2012.ml",
 			"settings":
 			{
-				"buffer_size": 861,
+				"buffer_size": 1098,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Makefile",
+			"file": "midterm2011.ml",
 			"settings":
 			{
-				"buffer_size": 90,
+				"buffer_size": 831,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "all: midterm2010.m"
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/mattunixleno/.shrc",
+			"settings":
+			{
+				"buffer_size": 466,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -206,13 +225,65 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 371.0,
-		"last_filter": "repl",
+		"height": 194.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
 			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"repl",
 				"SublimeREPL: OCaml"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"ocaml",
+				"Set Syntax: OCaml"
+			],
+			[
+				"rawl",
+				"Raw Line Edit: Toggle"
+			],
+			[
+				"toggle",
+				"Raw Line Edit: Toggle"
+			],
+			[
+				"unix",
+				"Line Ending: Unix"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"repl oca",
+				"SublimeREPL: OCaml utop"
+			],
+			[
+				"line ending",
+				"Line Ending: Unix"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
 			],
 			[
 				"merlin",
@@ -243,7 +314,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 471.0
+		"width": 579.0
 	},
 	"console":
 	{
@@ -269,10 +340,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mattuxyoga/cs51/midterm"
+		"/home/mattunixleno/cs51/midterm"
 	],
 	"file_history":
 	[
+		"/home/mattunixleno/.config/sublime-text-3/Packages/WordCount/WordCount.sublime-settings",
+		"/home/mattunixleno/.config/sublime-text-3/Packages/User/WordCount.sublime-settings",
+		"/home/mattunixleno/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/mattunixleno/.config/sublime-text-3/Packages/User/raw_line_edit.sublime-settings",
+		"/home/mattunixleno/cs51/midterm/midterm2012.ml",
+		"/home/mattunixleno/cs51/midterm/midterm2012.ml.cur",
+		"/home/mattunixleno/cs51/midterm/midterm2010.ml",
 		"/home/mattuxyoga/cs51/midterm/.gitignore",
 		"/home/mattuxyoga/cs51/ps4/.gitignore",
 		"/home/mattuxyoga/cs51/midterm/midterm2011.ml",
@@ -362,6 +440,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"let",
+			"nd_doc (f",
+			"title",
+			"\\128",
 			"random",
 			"(*",
 			"())),"
@@ -369,7 +451,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -382,63 +464,257 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "midterm2010.ml",
+					"file": "midterm2012.ml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 861,
+						"buffer_size": 1098,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								711,
-								774
+								1098,
+								1098
 							]
 						],
 						"settings":
 						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"git_gutter_enabled": true,
 							"syntax": "Packages/sublime-better-ocaml/OCaml.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "midterm2011.ml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								830,
+								830
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/sublime-better-ocaml/OCaml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "Makefile",
+					"buffer": 2,
+					"file": "/home/mattunixleno/.shrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 90,
+						"buffer_size": 466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								89,
-								89
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "all: midterm2010.m",
-							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 44,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -480,6 +756,10 @@
 		"height": 0.0
 	},
 	"output.merlin":
+	{
+		"height": 114.0
+	},
+	"output.raw_line_edit_view":
 	{
 		"height": 114.0
 	},
@@ -525,7 +805,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 201.0,
+	"side_bar_width": 189.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -45,3 +45,10 @@ let rec gcc xs =
 match xs with
 | [] -> (fun x -> x)
 | h::t -> fun x -> h((gcc t) x);;
+
+(* Question 3 *)
+type 'a tree =
+  | Empty
+  | BiNode of 'a tree * 'a * 'a tree
+  | TriNode of 'a tree * 'a * 'a tree * 'a * 'a tree
+
